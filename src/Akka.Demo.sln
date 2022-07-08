@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Akka.Demo", "Akka.Demo\Akka.Demo.fsproj", "{C1640AE0-8AFC-4853-A74C-5DDDA16F701F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ChatClient", "ChatClient\ChatClient.fsproj", "{D041ABE9-D23E-49C9-90A9-780D48F69954}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ChatServer", "ChatServer\ChatServer.fsproj", "{EC52DD99-67BB-46E6-B353-C13F9F1D1D23}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ChatMessages", "ChatMessages\ChatMessages.fsproj", "{BA450CC7-3A2E-4F9E-9965-9E17239B1555}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1640AE0-8AFC-4853-A74C-5DDDA16F701F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1640AE0-8AFC-4853-A74C-5DDDA16F701F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1640AE0-8AFC-4853-A74C-5DDDA16F701F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1640AE0-8AFC-4853-A74C-5DDDA16F701F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D041ABE9-D23E-49C9-90A9-780D48F69954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D041ABE9-D23E-49C9-90A9-780D48F69954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D041ABE9-D23E-49C9-90A9-780D48F69954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D041ABE9-D23E-49C9-90A9-780D48F69954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC52DD99-67BB-46E6-B353-C13F9F1D1D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC52DD99-67BB-46E6-B353-C13F9F1D1D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC52DD99-67BB-46E6-B353-C13F9F1D1D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC52DD99-67BB-46E6-B353-C13F9F1D1D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA450CC7-3A2E-4F9E-9965-9E17239B1555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA450CC7-3A2E-4F9E-9965-9E17239B1555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA450CC7-3A2E-4F9E-9965-9E17239B1555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA450CC7-3A2E-4F9E-9965-9E17239B1555}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

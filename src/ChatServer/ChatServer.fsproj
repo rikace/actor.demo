@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Program.fs" />
+        <None Include="Script.fsx" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Akka.FSharp" Version="1.4.39" />
+      <PackageReference Include="Akka.Remote" Version="1.4.39" />
+      <PackageReference Update="FSharp.Core" Version="6.0.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ChatMessages\ChatMessages.fsproj" />
+    </ItemGroup>
+
+</Project>
